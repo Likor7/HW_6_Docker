@@ -4,7 +4,5 @@ services:
   hw_app:
     build:
       context: .
-      dockerfile: ./docker/hw_app/DockerFile
+      dockerfile: docker/hw_app/Dockerfile
     container_name: hw6
-    volumes:
-      - ./:/hw_app
